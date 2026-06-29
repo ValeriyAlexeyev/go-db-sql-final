@@ -1,0 +1,12 @@
+.git
+.gitignore
+.vscode
+.idea
+
+tracker.db
+
+*.exe
+*.test
+
+Dockerfile
+README.md
