@@ -1,5 +1,7 @@
 module github.com/Yandex-Practicum/go-db-sql-final
 
+
+
 go 1.21
 
 require (
@@ -29,4 +31,4 @@ require (
 	modernc.org/opt v0.1.3 // indirect
 	modernc.org/strutil v1.1.3 // indirect
 	modernc.org/token v1.0.1 // indirect
-)
+	)
