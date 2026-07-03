@@ -118,7 +118,7 @@ func main() {
 	}
 	defer db.Close()
 
-	// Создаем таблицу, если она отсутствует
+	// Создаем таблицу, если она отсутствует.
 	_, err = db.Exec(`
 	CREATE TABLE IF NOT EXISTS parcel (
 		number INTEGER PRIMARY KEY AUTOINCREMENT,
